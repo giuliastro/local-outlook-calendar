@@ -56,6 +56,7 @@ dist\LocalOutlookCalendar.exe
 - Current-time indicator
 - Weekend and off-hours shading
 - Background loading to keep the UI responsive
+- Custom application icon
 
 ## Limitations
 

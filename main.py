@@ -9,9 +9,24 @@ import tkinter as tk
 from ui import CalendarApp
 
 
+def asset_path(relative_path: str) -> str:
+    base_dir = getattr(sys, "_MEIPASS", os.path.dirname(__file__))
+    return os.path.join(base_dir, relative_path)
+
+
+def set_app_icon(root: tk.Tk) -> None:
+    try:
+        icon = tk.PhotoImage(file=asset_path(os.path.join("assets", "icon.png")))
+        root.iconphoto(True, icon)
+        root._app_icon = icon
+    except Exception:
+        pass
+
+
 def main() -> None:
     root = tk.Tk()
     root.option_add("*Font", "{Segoe UI} 10")
+    set_app_icon(root)
     app = CalendarApp(root)
     root.mainloop()
 
