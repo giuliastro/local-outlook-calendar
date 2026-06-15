@@ -36,13 +36,13 @@ python main.py
 
 ```powershell
 pip install -r requirements.txt
-pyinstaller MSCal.spec --noconfirm
+pyinstaller LocalOutlookCalendar.spec --noconfirm
 ```
 
 The executable is generated at:
 
 ```text
-dist\MSCal.exe
+dist\LocalOutlookCalendar.exe
 ```
 
 ## Features

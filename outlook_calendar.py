@@ -7,7 +7,7 @@ from typing import List, Dict, Optional
 
 
 _LOG_DIR = os.path.dirname(sys.executable) if getattr(sys, "frozen", False) else os.path.dirname(__file__)
-_LOG_PATH = os.path.join(_LOG_DIR, "mscal_debug.log")
+_LOG_PATH = os.path.join(_LOG_DIR, "local_outlook_calendar_debug.log")
 
 
 def _log(msg: str) -> None:

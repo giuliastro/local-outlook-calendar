@@ -15,7 +15,7 @@ class CalendarApp:
 
     def __init__(self, root: tk.Tk) -> None:
         self.root = root
-        self.root.title("MSCal - Calendario Outlook")
+        self.root.title("Local Outlook Calendar")
         self.root.geometry("1100x680")
         self.root.minsize(800, 500)
 
