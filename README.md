@@ -4,6 +4,15 @@ A lightweight local Windows calendar viewer for Outlook Classic.
 
 Local Outlook Calendar reads your Outlook calendar through the local COM profile and shows a clean weekly view without Microsoft Graph, OAuth, Azure app registrations, or cloud sync.
 
+## For People Searching For
+
+- Outlook calendar viewer without Microsoft Graph
+- Local Outlook calendar app for Windows
+- Outlook Classic calendar without OAuth
+- Read-only desktop calendar for Outlook
+- Windows calendar viewer using the local Outlook profile
+- Pywin32 Outlook calendar viewer
+
 ## Why
 
 Many Outlook calendar tools are sync engines, Graph API integrations, or cloud services. This project is intentionally smaller:
@@ -69,6 +78,16 @@ dist\LocalOutlookCalendar.exe
 ## Project Status
 
 Early local-first desktop app. The current goal is to provide a fast and reliable weekly calendar view for people who already have Outlook Classic configured but do not want a cloud/API-based integration.
+
+## Feedback Wanted
+
+This project is early. If you use Outlook Classic on Windows, feedback is especially useful on:
+
+- multi-calendar setups and shared calendars
+- corporate Outlook environments
+- display scaling and high-DPI behavior
+- packaging, installer, and update expectations
+- what you miss most from Outlook's built-in calendar view
 
 ## License
 
